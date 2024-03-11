@@ -27,11 +27,19 @@ struct NewItemView: View {
                     .datePickerStyle(GraphicalDatePickerStyle())
                 
                 TLButton(title: "Save", background: Color.pink) {
-                    // save todo item
-                    viewModel.save()
-                    newItemPresented = false
+                    
+                    if viewModel.canSave {
+                        // save todo item
+                        viewModel.save()
+                        newItemPresented = false
+                    } else {
+                        viewModel.showAlert = true
+                    }
                 }
                 .padding()
+            }
+            .alert(isPresented: $viewModel.showAlert) {
+                Alert(title: Text("Error"), message: Text("Please fill in all field and select due date that is today or newer."))
             }
         }
     }
@@ -41,8 +49,8 @@ struct NewItemView_Previews: PreviewProvider {
     static var previews: some View {
         NewItemView(newItemPresented: Binding(get: {
             return true
-        }, set: { <#Value#>, <#Transaction#> in
-            <#code#>
+        }, set: { _ in
+            
         }))
     }
 }
