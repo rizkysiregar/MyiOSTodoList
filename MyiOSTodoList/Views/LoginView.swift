@@ -29,7 +29,7 @@ struct LoginView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                     
                     TLButton(title: "Log In", background: Color.blue) {
-                        // action register
+                        viewModel.login()
                         
                     }
                     .padding()

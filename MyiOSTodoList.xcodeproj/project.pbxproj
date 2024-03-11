@@ -32,6 +32,7 @@
 		FA8A4B9B2B9D8E85006D0981 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A4B9A2B9D8E85006D0981 /* HeaderView.swift */; };
 		FA8A4B9D2B9DA0D9006D0981 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA8A4B9C2B9DA0D9006D0981 /* GoogleService-Info.plist */; };
 		FA8A4B9F2B9DB334006D0981 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A4B9E2B9DB334006D0981 /* TLButton.swift */; };
+		FA8A4BA12B9EA38F006D0981 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A4BA02B9EA38F006D0981 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		FA8A4B9A2B9D8E85006D0981 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		FA8A4B9C2B9DA0D9006D0981 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA8A4B9E2B9DB334006D0981 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		FA8A4BA02B9EA38F006D0981 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 				FA8A4B9C2B9DA0D9006D0981 /* GoogleService-Info.plist */,
 				FA8A4B5F2B9D74DE006D0981 /* MyiOSTodoListApp.swift */,
 				FA8A4B632B9D74E0006D0981 /* Assets.xcassets */,
+				FA8A4BA02B9EA38F006D0981 /* Extension.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				FA8A4B7D2B9D877A006D0981 /* ProfileView.swift in Sources */,
 				FA8A4B892B9D88AD006D0981 /* User.swift in Sources */,
 				FA8A4B952B9D8943006D0981 /* LoginViewViewModel.swift in Sources */,
+				FA8A4BA12B9EA38F006D0981 /* Extension.swift in Sources */,
 				FA8A4B872B9D884B006D0981 /* TodoListItemView.swift in Sources */,
 				FA8A4B602B9D74DE006D0981 /* MyiOSTodoListApp.swift in Sources */,
 				FA8A4B812B9D87C7006D0981 /* NewItemView.swift in Sources */,
