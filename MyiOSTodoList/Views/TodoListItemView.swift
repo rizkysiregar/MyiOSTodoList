@@ -29,9 +29,10 @@ struct TodoListItemView: View {
             Spacer()
             
             Button {
-                viewModel.tonggleIsDone(item: item)
+                viewModel.tonggleIsDone(item: self.item)
             } label: {
-                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle" )
+                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
+                    .foregroundColor(Color.blue)
             }
         }
     }
@@ -44,7 +45,7 @@ struct TodoListItemView_Previews: PreviewProvider {
             title: "Get Some Milk",
             dueDate: Date().timeIntervalSince1970,
             createData: Date().timeIntervalSince1970,
-            isDone: true
+            isDone: false
         ))
     }
 }
