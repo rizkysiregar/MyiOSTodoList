@@ -9,5 +9,10 @@ import Foundation
 
 
 class TodoListItemViewViewModel: ObservableObject {
+    
     init () {}
+    
+    func tonggleIsDone(item: TodoListItem) {
+        
+    }
 }
