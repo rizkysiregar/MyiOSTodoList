@@ -4,9 +4,17 @@ UI: SwiftUI
 Auth: Firebase FirebaseAuth
 Database: Firebase FireStore
 
+# Register
+<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/register-page.png">
 
-<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/register-page.png" width="200" height="200">
-<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/login-page.png" width="200" height="200">
-<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/add-newl-list.png" width="200" height="200">
-<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/list-of-item-mainpage.png" width="200" height="200">
-<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/profile%20page.png" width="200" height="200">
+# Log In
+<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/login-page.png">
+
+# Add new item
+<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/add-newl-list.png">
+
+# List of items
+<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/list-of-item-mainpage.png">
+
+# Profile and Log out
+<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/profile%20page.png">
