@@ -4,4 +4,4 @@ UI: SwiftUI
 Auth: Firebase FirebaseAuth
 Database: Firebase FireStore
 
-![Alt text](https://drive.google.com/file/d/1xkJnHLtj2YN4EogOUG_HMF6CvvY7L01S/view?usp=sharing)
+![Alt text](https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/add-newl-list.png)
