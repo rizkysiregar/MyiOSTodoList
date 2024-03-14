@@ -5,7 +5,7 @@ Auth: Firebase FirebaseAuth
 Database: Firebase FireStore
 
 # Register
-<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/register-page.png">
+<img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/register-page.png" width="300" height="600">
 
 # Log In
 <img src="https://github.com/rizkysiregar/MyiOSTodoList/blob/main/photo/login-page.png">
